@@ -39,14 +39,16 @@ python entertainment_center.py
 
 After the program runs, you'll see a new file called fresh_tomatoes.html in the same folder. The file will also pop open in your web browser.
 
-If you do this straight away, you'll see MY favorite movies (not a bad thing :)). In order to have the page show YOUR favorite movies, read on.
+When you hover over a movie poster with your mouse, you'll see an "info" button (and a "play" button if you included a YouTube trailer URL for the movie). Clicking on "info" will bring up a window that displays a lot of cool information about the movie. This data comes from the awesome [Open Movie Database API](http://omdbapi.com/). And hey, you didn't have to type any of it in! W00t!
+
+If you run the program straight away, you'll see **my** favorite movies (not a bad thing :)). In order to have the page show **your** favorite movies, read on.
 
 
 ## The movie list
 
 The list of movies is contained in a file called "movies.json". You got that file when you git-cloned or unzipped the project. Simply edit this sample file with your own favorite movies.
 
-The parameters in the JSON file as as follows (all parameters are case-sensitive):
+The parameters in the JSON file are as follows (all parameters are case-sensitive):
 
 Parameter | What it is | Required?
 --- | --- | :---:
@@ -84,4 +86,4 @@ This program was built by me, Chris Willey, as part of the Udacity Nanodegree pr
 
 ## Copyright and License
 
-Code and documentation copyright 2011-2015 Christopher Willey. Code released under the MIT license.
+Code and documentation copyright 2015 Christopher Willey. Code released under the MIT license.

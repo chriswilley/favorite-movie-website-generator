@@ -131,6 +131,7 @@ main_page_head = '''
               'frameborder': 0
             }}));
         }});
+        // Clicking the "info" button displays a modal with the movie data in it
         $(document).on('click', '.info-button', function (event) {{
             $('#info').find('#why').html($(this).data('why'));
             $('#info').find('#title').text($(this).data('title'));
